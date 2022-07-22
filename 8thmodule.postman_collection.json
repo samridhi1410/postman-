@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "762f4904-12c2-4154-aadf-8c198ee97205",
+		"name": "8thmodule",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19819698"
+	},
+	"item": [
+		{
+			"name": "consumingRest1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/united?code=CLE",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"united"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "CLE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consumingRest2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/united?code=SFO",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"united"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "SFO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "comsumingRest3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/united?code=PDF",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"united"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "PDF"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consumingSoap1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "consumingSoap2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "consumingSoap3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/delta?code=SFO",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"delta"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "SFO"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

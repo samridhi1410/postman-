@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "be424cf5-2b5f-4989-a9cc-7390f4725510",
+		"name": "10thmodule",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19819698"
+	},
+	"item": [
+		{
+			"name": "invalid destination",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "errorhandled",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ERRORHANDLED",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

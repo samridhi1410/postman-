@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "942a9a6d-9b9c-4527-8c93-3a969ac76b3d",
+		"name": "4th and 5th mdoule",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19819698"
+	},
+	"item": [
+		{
+			"name": "get flight",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getflightbyID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"airline\": \"Delta\",\r\n  \"flightCode\": \"ER0945\",\r\n  \"fromAirportCode\": \"PDX\",\r\n  \"toAirportCode\": \"CLE\",\r\n  \"departureDate\": \"June 1, 2016\",\r\n  \"emptySeats\": 24,\r\n  \"totalSeats\": 350,\r\n  \"price\": 450,\r\n  \"planeType\": \"Boeing 747\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/api/flights",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cloud",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://samridhi-flight.us-e2.cloudhub.io/api/flights",
+					"protocol": "http",
+					"host": [
+						"samridhi-flight",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Proxy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "a0ed042906cd4698bc15398d0db52820",
+						"type": "text"
+					},
+					{
+						"key": "client_secret",
+						"value": "3E81bC23efE24bbE9E2178B79522CCd0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://samridhi-proxy-flight.us-e2.cloudhub.io/flights",
+					"protocol": "http",
+					"host": [
+						"samridhi-proxy-flight",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

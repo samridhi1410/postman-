@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "b4b8b2d7-aec9-4ff3-9750-e8401a2264b2",
+		"name": "6th and 7th module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19819698"
+	},
+	"item": [
+		{
+			"name": "getvaluefromvariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hello?fname=sam",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hello"
+					],
+					"query": [
+						{
+							"key": "fname",
+							"value": "sam"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "publishconnector",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

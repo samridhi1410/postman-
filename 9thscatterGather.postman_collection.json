@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "e589f56c-97a8-4490-ac07-22f0ef39cdd1",
+		"name": "9thscatterGather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19819698"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/flights?airline=delta&code=CLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/flights?airline=delta&code=CLE",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "airline",
+							"value": "delta"
+						},
+						{
+							"key": "code",
+							"value": "CLE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/flights?airline=delta&code=FGH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/flights?airline=delta&code=FGH",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "airline",
+							"value": "delta"
+						},
+						{
+							"key": "code",
+							"value": "FGH"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
